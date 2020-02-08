@@ -2,7 +2,7 @@
 layout: post
 title:  "Errors redirects"
 #date:   2020-01-31 22:26:23 +0200
-categories: [blog, web]
+#categories: [blog, web]
 tags: [web]
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:  "Hello World"
 #date:   2020-01-31 22:26:23 +0200
-categories: [blog, web]
-comments: true
+#categories: [blog, web]
+tags: [web]
 ---
 
 
