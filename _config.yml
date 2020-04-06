@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AB blog
+title: ABlog
 author: AB
 email: "ab [at] balzes.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,18 +27,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://balzes.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  ""
-
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: balzes
-
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title:output_ext
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-sitemap
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
