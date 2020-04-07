@@ -60,6 +60,8 @@ And here is explained how to create template-based error page:
 
 
 #### Alternate solution for Nginx
-<span style="color:red">**[TBD]** </span>
-(To Be Determined) will update shortly.
+**[edited on 2020-04-07]**
 
+My hosting uses a web interface to control config files so in this case, it requires to define error page via this site (ISPmanager):
+
+![Defining redirects](/assets/images/ispmanager_errors_page.png)  
