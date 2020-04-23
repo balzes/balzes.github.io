@@ -54,7 +54,7 @@ That's it!
 Some additional takeaway from this post: if you want to include in your post text that contains `{% some text %}` or `{{ some text }}` it will be processed by [Liquid](https://shopify.github.io/liquid/), the template language used by Jekyll, as a command and cause an error or will be replaced by a matching variable value, so to do it, you should escape the text using:
 {% endraw %}
 
-```
+``` Liquid
 {{"{%"}} raw %}
 {{"{%"}} some text %}
 {{"{%"}} endraw %}
